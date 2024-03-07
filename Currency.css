@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Currency-Exchange.jpge.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+  }
+    .container {
+    max-width: 400px;
+    margin: 250px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: linear-gradient(#fafaf7,#8dfcb4,#25ba59,#fafaaa,#10e359,#f4fa7d,#14fa64);
+    }
+    
+    h2 {
+    text-align: center;
+    }
+    
+    .input-container {
+    margin-bottom: 10px;
+    }
+    
+    label {
+    font-weight: bold;
+    }
+    
+    input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #0056b3;
+    }
+    
+    #result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
